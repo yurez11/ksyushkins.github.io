@@ -1,0 +1,79 @@
+body{
+    padding: 0px;
+    margin: 0 100px;
+    background-color: rgb(255, 255, 255);
+    background-image: url('https://png.klev.club/uploads/posts/2024-03/png-klev-club-p-den-rozhdeniya-png-27.png');
+    background-size: cover; /* Растягивает изображение на весь фон */
+    background-position: center 20%;
+}
+html {
+    scroll-behavior: smooth; /* Включаем плавную прокрутку */
+}
+.begin{
+    font-style: normal;
+    text-align: center;
+    margin:0%;
+}
+
+.descr{
+    text-align: center;
+    margin:0%;
+}
+
+.childhood{
+    margin-left: 0;
+}
+
+.school{
+    color: blue;
+    text-decoration: none;
+}
+.school:hover{
+    color: darkblue;
+}
+.list_content{
+    display: inline-block;
+    border-width: 1px;
+    padding-right: 30px;;
+    border-style: solid;
+    margin-left: 30px;
+}
+.sss{
+    text-align: center;
+    font-weight: bold;
+}
+.photo_K{
+    width: 200px;
+    height: auto;
+    float: right;
+    border-style: solid;
+    border-color: pink;
+    border-width: 1px;
+    padding: 5px;
+    margin-left: 1%;
+    margin-right: 5px;
+    
+}
+.header {
+    background-color: rgba(255, 255, 255, 0.8); /* Полупрозрачный белый фон */
+    padding: 20px; /* Отступы вокруг текста */
+    border-radius: 10px; /* Закругленные углы (по желанию) */
+}
+h1, h5, p {
+    margin: 10px 0; /* Отступы между заголовками и абзацами */
+}
+.KAZUS{
+    font-weight: bold;
+}
+.danger-text {
+    font-family: 'Roboto Mono', monospace; /* Используем выбранный шрифт */
+    font-size: 24px; /* Увеличиваем размер шрифта */
+    color: red; /* Красный цвет текста */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Добавляем тень */
+    letter-spacing: 1px; /* Увеличиваем расстояние между буквами */
+    background-color: rgba(255, 0, 0, 0.1); /* Полупрозрачный фон */
+    padding: 10px; /* Отступы вокруг текста */
+    border: 2px solid darkred; /* Темно-красная рамка */
+    border-radius: 5px; /* Закругленные углы */
+    margin-bottom: 10px; /* Отступ снизу для разделения параграфов */
+}
